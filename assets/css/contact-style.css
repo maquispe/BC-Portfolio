@@ -1,0 +1,70 @@
+html{
+    height: 100%;
+}
+.header{
+    background-color: white;
+    border-bottom: 1px solid #4aaaa5;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/webb.png);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+a{
+    float: right;
+    color:teal;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.green-box{
+    color: white;
+    background-color: teal;
+    width: 18%;
+    border-color: teal;
+    margin-top: 0;
+    float: left;
+    margin-left: 15%;
+}
+
+
+.form-control{
+    color: grey;
+    font-size: medium;
+    width: 600px;
+    border: 1px solid teal;
+    outline: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 16px;
+}
+
+form.submit:hover{
+    font-size: medium;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    background-color: teal;
+    cursor: pointer;
+}
+
+footer{
+    height: 50px;
+    margin-top: auto;
+    border-top: 8px solid #4AAAA5;
+    background-color: grey;
+}
+
+.contact-form{
+    background-color: white;
+    width: 960px;
+    margin-left: 15%;
+    overflow: scroll;
+}
